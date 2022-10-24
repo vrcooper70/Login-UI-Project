@@ -1,0 +1,78 @@
+html,body{
+    margin: 0px;
+    background-image: url('pexels-belle-co-847393.jpg'); /*  background: linear-gradient(to top, #16222A, #3A6073)*/
+    background-size: cover;
+
+    
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*center*/
+    align-items: center; /*center*/
+}
+
+.card   {
+    border-style: solid;
+    border-width: 4px;
+    border-radius: 12px;
+    box-shadow: 10px 10px;
+    border-color: rgb(0, 0, 0);  /* (0,0,0,0.3) */
+    background-color: rgba(58, 63, 68, 0.653);  /*(rgba(0,0,0,0.5) ((40, 210, 125, 0.399)*/
+    min-width: 30%;  /*30%*/
+    min-height: 50%; /*20%*/
+    display: flex;
+    justify-content: center;
+    padding: 10 px;
+}
+
+.header1 {
+    font-family: fantasy;
+    color: white;
+    font-weight:bold;
+    text-align: center;
+}
+
+.flex-input {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+label {
+    flex-basis: 130px;
+    margin-top: 10px;
+    font-size:  20px;
+    
+}
+
+.lock:before {
+    content: '\f023';
+    font: 14px fontawesome;
+    color: #5b5b5b;
+}
+
+input[type="button"] {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(0, 185, 188, 0.997);
+    border-radius: 12px;
+    color: white;
+    border: none;
+    margin: 20px 0;
+}
+
+.login-form {
+    padding: 10px;   
+}
+
+input[type="text"], [type="password"] {
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 12px;
+    border: none;
+}
+
